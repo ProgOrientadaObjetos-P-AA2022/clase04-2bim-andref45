@@ -39,7 +39,7 @@ public class ArriendoLocalComercial extends Arriendo {
 
     @Override
     public String toString() {
-        String cadena = String.format("Ariendo de Local Comercial\n"
+        String cadena = String.format("Arriendo de Local Comercial\n"
                 + "Nombre Arrendatario: %s\n"
                 + "Cuota base: %.2f\n"
                 + "Valor adicional fijo: %.2f\n"
