@@ -1,14 +1,36 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package paquete02;
 
 /**
  *
  * @author reroes
  */
-public class Automovil {
+public abstract class Automovil {
+
+    protected String prop;
+    protected String placa;
+    protected double v_canc;
+
+    public void establecerProp(String n) {
+        prop = n;
+    }
+
+    public void establecerPlaca(String n) {
+        placa = n;
+    }
+
+    public abstract void calcularV_Canc();
+
+    public String obtenerProp() {
+        return prop;
+    }
+
+    public String obtenerPlaca() {
+        return placa;
+    }
+
+    public double obtenerV_Canc() {
+        return v_canc;
+    }
     
 }
