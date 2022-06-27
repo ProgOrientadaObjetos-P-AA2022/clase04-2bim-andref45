@@ -24,8 +24,8 @@ public class Ejecutor {
         AutomovilGasolina auto1 = new AutomovilGasolina();
         auto1.establecerProp(nombreUno);
         auto1.establecerPlaca(placaUno);
-        auto1.establecerCostoGalon(4.50);
-        auto1.establecerNumGalon(10);
+        auto1.establecerCostoGalon(3);
+        auto1.establecerNumGalon(20);
         auto1.calcularV_Canc();
 
         System.out.printf("%s", auto1);
@@ -48,7 +48,7 @@ public class Ejecutor {
         auto3.establecerProp(nombreTres);
         auto3.establecerPlaca(placaTres);
         auto3.setNumLitros(20);
-        auto3.setCostoLitro(5);
+        auto3.setCostoLitro(2);
         auto3.setDescuentoLitros(0.1);
         auto3.calcularV_Canc();
         System.out.printf("%s", auto3);
